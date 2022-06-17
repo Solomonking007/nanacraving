@@ -1,0 +1,29 @@
+.contact-grid-wrapper {
+    width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
+
+.company-metadata-side-bar > .logo img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.company-metadata-side-bar > .company-details-wrapper {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 1.25em;
+    align-items: center;
+}
+
+.company-metadata-side-bar > .company-details-wrapper i {
+    color: #cea135;
+
+}
